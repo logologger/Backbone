@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>BackBone JS Application
+</title>
+</head>
+<body>
+<div id="allFlowers"></div>
+<div id="copy"></div>
+<script id="flowerElement" type="style/template">
+<a href="#<%=link%>"><img src="<%=img%>" alt="<%=name" /></a>
+
+<ul>
+<li class="flowerInfo">Name:<%=name%></li>
+
+<li class="flowerInfo">Price:<%=price%></li>
+
+<li class="flowerInfo">Color:<%=color%></li>
+
+</ul>
+</script>
+
+<script src="libs/jquery.js"></script>
+<script src="libs/underscore.js"></script>
+<script src="libs/backbone.js"></script>
+<script src="models/singleFlowerModel.js"></script>
+
+<script src="views/singleFlowerView.js"></script>
+<script src="views/allFlowersView.js"></script>
+
+<script src="collections/allFowers.js"></script>
+<script src="flowerApp.js"></script>
+
+
+</body>
+</html>
